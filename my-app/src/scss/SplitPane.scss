@@ -1,0 +1,26 @@
+.SplitPane {
+    height: 40px;
+    width: 100%;
+
+    &-left {
+        width: 30%;
+        float: left;
+    }
+
+    &-right {
+        width: 70%;
+        float: left;
+    }
+}
+
+.Contacts,
+.Chat {
+    width: 100%;
+    height: 40px;
+}
+.Contacts {
+    background: lightseagreen;
+}
+.Chat {
+    background: lightcoral;
+}
