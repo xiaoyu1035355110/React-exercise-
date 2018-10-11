@@ -13,8 +13,9 @@ class ThemedButton extends Component {
         return (
             <ThemeContext.Consumer>
                 {
-                    theme =>
-                    <button {...props} style={{backgroundColor: theme.background}}>theme</button>
+                    theme => 
+                   <button {...props} style={{backgroundColor: theme.background}}>{this.props.children}</button>
+                   
                 }
             </ThemeContext.Consumer>
         )

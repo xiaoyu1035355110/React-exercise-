@@ -1,4 +1,4 @@
-import { React, Component } from 'react';
+import React, { Component } from 'react';
 import { ThemeContext, themes} from './ThemeContext';
 import  ThemedButton from './ThemedButton';
 
@@ -44,7 +44,9 @@ class DynamicThemeContext extends Component {
                 <ThemeContext.Provider value={this.state.theme}>
                     <Toolbar changeTheme={this.toggleTheme} />
                 </ThemeContext.Provider>
-                <ThemedButton />
+                <ThemedButton>
+                    Theme Button
+                </ThemedButton>
             </div>
         )
     }
