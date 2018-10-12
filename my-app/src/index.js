@@ -9,7 +9,8 @@ import UncontrolledComponent from './UncontrolledComponent/UncontrolledComponent
 import Optimization from './Optimization/Optimization';
 import Reconciliation from './Reconciliation/Reconciliation';
 import Context from './Context/Context';
+import Fragments from './Fragments/Fragments';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Context />, document.getElementById('root'));
+ReactDOM.render(<Fragments />, document.getElementById('root'));
 registerServiceWorker();
